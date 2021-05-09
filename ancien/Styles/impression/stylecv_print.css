@@ -1,0 +1,439 @@
+	.lien_menu {
+	display: none;
+}
+	.back {
+		display: none;
+	}
+
+	.back-cv {
+		display: none;
+	}
+
+	nav {
+		display: none;
+
+	}
+
+
+	footer {
+
+		display: none;
+	}
+
+	.le_bas_de_page {
+
+		display: none;
+	}
+
+	.copyright {
+
+		display: none;
+	}
+
+	.logo_iut {
+
+		display: none;
+	}
+
+	h3.lien_menu {
+	display: none;
+
+	}
+
+
+	.actif {
+
+	display: none;
+	}
+
+
+
+	.hdp {
+	 display: none;
+
+	}
+
+
+
+
+	.barre_de_navigation {
+
+		display: none;
+	}
+
+	.linkedin {
+  	display: none;
+
+	}
+	 .email {
+  	display: none;
+
+	}
+
+	body {
+
+		margin-top: -6%;
+		margin-bottom: -5%;
+
+	}
+
+
+	hr {
+
+	min-height: 0.2%;	
+	height: 0.2%;
+	max-width: 90%;
+	display: block;
+	border: none;
+	text-align: center;
+	background-color: #2B5E80;
+}
+
+
+
+		.identite {
+
+			text-align: left;
+			font-size: 15pt;
+			font-family: Arial;
+			color: red;
+		}
+
+		.titre {
+
+			font-family: century gothic;
+			font-size: 17pt;
+			text-align: center;
+		}
+
+		.sous_titre {
+
+			font-family: century gothic;
+			font-size: 12.52pt;
+		}
+
+		.sous_sous_titre {
+
+			font-family: century gothic;
+			font-size: 11.77pt;
+		}
+
+		.page {
+
+			display: flex;
+			padding-top: 5%;
+			flex-direction: column;
+		}
+
+			.hpage {
+
+	display: flex;
+	/*border: solid black 1px;*/
+	border-left: solid black 0.75pt;
+	border-top: solid black 0.75pt;
+	border-right: solid black 0.75pt;
+	vertical-align: top;
+	
+}
+
+
+	.hgauche {
+	/*border: solid black 1px;*/
+	padding-top: 1%;	/* anciennement 0.79%*/
+	vertical-align: top;
+	background-color: #1994E3;
+	padding-left: 1%;
+	
+	
+	padding-right: 1%;
+	border-right: solid black 0.75pt;
+	border-bottom: solid black 0.75pt;
+	}
+
+	.photo_cv {
+
+		display: block;
+		vertical-align: top;
+		width: 100%;
+		
+		
+
+		/*clip-path: ellipse(50% 50%);*/
+/*	
+	overflow:hidden;
+    -webkit-border-radius:111px;
+    -moz-border-radius:111px;
+    border-radius:111px;
+    width:200px;
+    height:262px;*/
+	}
+
+	.logo {
+
+		background-color: #1994E3;
+	}
+
+
+	.cercle_competence_plein {
+			
+  	background:#1994E3;
+  	border-radius:50%;
+  	width:10pt;
+  	height:10pt;
+  	border:1.5pt solid #2B5E80;
+  	display: inline-block; 
+  	vertical-align: middle;
+  	
+  	
+	}
+
+	.style_competence {
+
+		margin-top: 1%;
+		white-space: nowrap;
+		display: inline;
+		font-family: century gothic;
+		font-size: 12pt;
+		vertical-align: middle;
+	}
+
+	.competence_technique {
+
+		display: flex;
+		flex-direction: row;
+		margin-left: -4%;
+	}
+
+	.competence_technique_boite_gauche {
+
+		display: flex;
+		flex-direction: row;
+	}
+
+	.competence_technique_boite_droite {
+
+		display: flex;
+		flex-direction: row;
+	}
+
+	.competence_technique_gauche {
+
+		margin-top: 1%;
+		white-space: nowrap;
+		display: inline;
+		font-family: century gothic;
+		font-size: 12pt;
+		vertical-align: middle;
+		
+	}
+
+	.competence_technique_droite {
+
+		margin-top: 1%;
+		white-space: nowrap;
+		display: inline;
+		font-family: century gothic;
+		font-size: 12pt;
+		vertical-align: middle;
+		
+		padding-left: 8%;
+	}
+
+	.espacement_cercle_competence {
+		
+		margin-top: 12%;
+		margin-left: -2px;
+		
+	}
+
+	.cercle_competence_vide {
+	
+  	background: #9B8989;
+  	border-radius:50%;
+  	width:10pt;
+  	height:10pt;
+  	border:1.5pt solid #2B5E80;
+  	display: inline-block; 
+  	vertical-align: middle;
+  	
+
+
+	}
+
+	div.cercle_competence {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		white-space: nowrap;
+	}
+
+
+
+	.hdroite {
+		display: flex;
+		flex-direction: column;
+		padding-left: 2.7%;	/*anciennes valeurs : 10% pour le left et right*/
+		padding-right: 2.7%; 
+
+	}
+
+	.hdroite1 {
+	/*border: solid black 1px;*/
+	/*background: linear-gradient(to right ,#2B84BE, #1889D1);*/
+	vertical-align: top;
+	padding-right: 0%;
+	padding-bottom: 0%;
+	font-family: century gothic;
+	font-size: 14pt;
+	
+	padding-left: 0.90%;	
+
+	}
+
+	.hdroite2 {
+	/*border: solid black 1px;*/
+	/*background: linear-gradient(to right ,#2B84BE, #1889D1);*/
+	
+	vertical-align: top;
+	padding-right: 0%;
+	padding-bottom: 0%;
+	font-family: century gothic;
+	font-size: 14pt;
+	
+	padding-left: 5%;	
+
+	}
+
+	.bpage {
+	display: flex;
+	/*border: solid black 1px;*/
+	border-left: solid black 0.75pt;
+	border-bottom: solid black 0.75pt;
+	border-right: solid black 0.75pt;
+
+	vertical-align: top;
+	margin-top: -10%;
+}
+
+	.bgauche {
+	/*border: solid black 1px;*/
+	/*background-color: #33c2fc;*/
+	background-color: #1994E3;
+	border-top: solid black 0.75pt;
+	padding-right: 8%;
+	padding-bottom: 4%;
+	border-right: solid black 0.75pt;
+	padding-left: 1.5%;
+	vertical-align: top;
+	}
+
+	.bdroite {
+	/*border: solid black 1px;*/
+	padding-left: 2.8%;
+	vertical-align: top;
+	padding-right: 2%;
+	}
+
+
+	
+	.meme_ligne{
+
+		display: flex;
+		flex-direction: row;
+		margin-top: -6%;
+		justify-content: space-around;
+	}
+
+
+	.style_titre {
+
+		color: grey;
+		font-family: century gothic;
+		font-size: 17pt;
+		text-align: center;
+
+
+	}
+
+		.style_titre_h {
+
+		color: grey;
+		font-family: century gothic;
+		font-size: 17pt;
+		text-align: left;
+		padding-left: 19%;
+
+
+	}
+
+	.titre_formations {
+
+		white-space: nowrap;
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: left;
+	}
+	.titre_formations_c {
+
+		
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: center;
+	}
+
+	.titre_formations_b {
+
+		white-space: nowrap;
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: right;
+		
+	}
+
+	.la_classe_de_trop {
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: left;
+		
+		padding-left: 5%;
+	}
+
+
+	.titre_formations_h {
+
+		white-space: nowrap;
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: left;
+	}
+
+	
+		.sous_titre_formations_h {
+
+		/*white-space: nowrap;*/
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: center;
+		padding-right: 6%;
+	}
+
+	.sous_titre_formations {
+
+		/*white-space: nowrap;*/
+		font-family: century gothic;
+		font-size: 12.52pt;
+		text-align: center;
+	}
+
+	.pdf{
+
+  	display: none;
+	}
+
+	
+		.imprimer {
+
+  	display: none;
+	}
+
+

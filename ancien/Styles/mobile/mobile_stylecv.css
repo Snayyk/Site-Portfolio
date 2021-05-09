@@ -1,0 +1,383 @@
+	
+
+	hr {
+	height: 1px;
+	max-width: 160px;
+	display: block;
+	border: none;
+	text-align: center;
+	background-color: #2B5E80;
+}
+
+
+
+		
+
+		.titre {
+
+			font-family: century gothic;
+			font-size: 9px;
+			text-align: center;
+		}
+
+		.sous_titre {
+
+			font-family: century gothic;
+			font-size: 5px;
+		}
+
+		.sous_sous_titre {
+
+			font-family: century gothic;
+			font-size: 6px;
+		}
+
+		ul.sous_sous_titre {
+
+			font-family: century gothic;
+			font-size: 6px;
+			padding-left: 15px;
+
+		}
+
+		.page {
+			
+			display: flex;
+			flex-direction: column;
+			margin-top: 50px;
+			margin-left: 10px;
+			max-width: 345px;
+			max-height: 500px;
+			padding-bottom: 0;
+			
+		}
+
+		.hdp {
+
+			display: none;
+		}
+
+			.hpage {
+	display: flex;
+	/*border: solid black 1px;*/
+	border-left: solid black 1px;
+	border-top: solid black 1px;
+	border-right: solid black 1px;
+	vertical-align: top;
+	max-width: 340px;
+}
+
+
+	.hgauche {
+	/*border: solid black 1px;*/
+	padding-top: 1.5%;
+	vertical-align: top;
+	background-color: #1994E3;
+	padding-left: 2px;
+	/*padding-bottom: 10vh;*/
+	
+	padding-right: 3px;
+	border-right: solid black 1px;
+	border-bottom: solid black 1px;
+	}
+
+	.photo_cv {
+		display: block;
+		vertical-align: top;
+		width: 95px;
+		
+
+		/*clip-path: ellipse(50% 50%);*/
+/*	
+	overflow:hidden;
+    -webkit-border-radius:111px;
+    -moz-border-radius:111px;
+    border-radius:111px;
+    width:200px;
+    height:262px;*/
+	}
+
+	.logo {
+
+		background-color: #1994E3;
+	}
+
+
+	.cercle_competence_plein {
+			
+  	background:#1994E3;
+  	border-radius:50%;
+  	width: 5px;
+  	height: 5px;
+  	border: 1px solid #2B5E80;
+  	display: inline-block; 
+  	vertical-align: middle;
+  	
+	}
+
+	.style_competence {
+
+		margin-top: 1vw;
+		white-space: nowrap;
+		display: inline;
+		font-family: century gothic;
+		font-size: 5px;
+		vertical-align: middle;
+	}
+
+	.competence_technique {
+
+		display: flex;
+		flex-direction: row;
+		margin-left: -2vw;
+	}
+
+	.competence_technique_boite_gauche {
+
+		display: flex;
+		flex-direction: row;
+	}
+
+	.competence_technique_boite_droite {
+
+		display: flex;
+		flex-direction: row;
+	}
+
+	.competence_technique_gauche {
+
+		margin-top: 1vw;
+		white-space: nowrap;
+		display: inline;
+		font-family: century gothic;
+		font-size: 5px;
+		vertical-align: middle;
+		
+	}
+
+	.competence_technique_droite {
+
+		margin-top: 1vh;
+		white-space: nowrap;
+		display: inline;
+		font-family: century gothic;
+		font-size: 5px;
+		vertical-align: middle;
+		
+		padding-left: 2vw;
+	}
+
+	.cercle_competence_vide {
+	
+  	background: #9B8989;
+  	border-radius:50%;
+  	width: 5px;
+  	height: 5px;
+  	border: 1px solid #2B5E80;
+  	display: inline-block; 
+  	vertical-align: middle;
+
+
+	}
+
+	.espacement_cercle_competence {
+		
+		margin-top: -7px;
+		margin-bottom: 10px;
+		
+	}
+
+
+
+	.hdroite {
+		display: flex;
+		flex-direction: column;
+
+
+	}
+
+	.hdroite1 {
+	/*border: solid black 1px;*/
+	/*background: linear-gradient(to right ,#2B84BE, #1889D1);*/
+	vertical-align: top;
+	padding-right: 0;
+	padding-bottom: 0vh;
+	font-family: century gothic;
+	font-size: 8px;
+	
+	padding-left: 1vw;	
+
+	}
+
+	.hdroite2 {
+	/*border: solid black 1px;*/
+	/*background: linear-gradient(to right ,#2B84BE, #1889D1);*/
+	
+	vertical-align: top;
+	padding-right: 00;
+	padding-bottom: 0vh;
+	font-family: century gothic;
+	font-size: 8px;
+	
+		
+
+	}
+
+	.bpage {
+	display: flex;
+	/*border: solid black 1px;*/
+	border-left: solid black 1px;
+	border-bottom: solid black 1px;
+	border-right: solid black 1px;
+	padding-right: 0;
+	vertical-align: top;
+	margin-top: -2vw;	/* rajouté pour windows*/
+	max-width: 340px;
+}
+
+	.bgauche {
+	/*border: solid black 1px;*/
+	/*background-color: #33c2fc;*/
+	background-color: #1994E3;
+	border-top: solid black 1px; /*	rajouté pour windows*/
+	padding-right: 11.5px;	/*Anciennement 2vw*/
+
+	border-right: solid black 1px;
+	padding-left: 12px;
+	vertical-align: top;
+	}
+
+	.bdroite {
+	/*border: solid black 1px;*/
+	
+	vertical-align: top;
+	}
+	.meme_ligne{
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+	}
+
+	ul.meme_ligne  {
+
+		font-size: 10px;
+	}
+
+	.meme_ligne2{
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+	}
+
+
+
+	.style_titre {
+
+		color: grey;
+		font-family: century gothic;
+		font-size: 9px;
+		text-align: center;
+
+
+	}
+
+		.style_titre_h {
+
+		color: grey;
+		font-family: century gothic;
+		font-size: 9px;
+		text-align: center;
+		padding-right: 5vw;
+
+
+	}
+
+
+	.titre_formations {
+
+		
+		font-family: century gothic;
+		font-size: 6px;
+		text-align: left;
+	}
+
+	.titre_formations_h {
+
+		white-space: nowrap;
+		font-family: century gothic;
+		font-size: 6px;
+		text-align: left;
+	}
+
+	.titre_formations_b {
+
+		white-space: nowrap;
+		font-family: century gothic;
+		font-size: 6px;
+		text-align: right;
+		
+	}
+	
+	.la_classe_de_trop {
+		font-family: century gothic;
+		font-size: 6px;
+		text-align: left;
+		
+		padding-left: 1.3vw;
+	}
+
+	.sous_titre_formations_h {
+
+		/*white-space: nowrap;*/
+		font-family: century gothic;
+		font-size: 6px;
+		text-align: center;
+		padding-right: 6vw;
+	}
+
+	.sous_titre_formations {
+
+		/*white-space: nowrap;*/
+		font-family: century gothic;
+		font-size: 6px;
+		text-align: center;
+	}
+
+	.imprimer {
+
+  	display: none;
+	}
+
+
+
+	.pdf {
+
+  	position: fixed;
+ 	 right: 0;
+ 	 top: 97vh;
+ 	 width: 85px;
+ 	 margin-top: -23vh;
+ 	 font-size: 14.5px;
+ 	 text-decoration: none;
+ 	 font-family: century gothic;
+ 	 border: solid black 2px;
+ 	 border-radius: 4vh;
+ 	 padding-left: 1vh;
+ 	 margin-right: 4px;
+ 	 padding-bottom: 0.2vh;
+ 	 opacity: 40%
+	}
+
+	.pdf:hover {
+
+		color: black;
+		opacity: 100%;
+		transition: 1s;
+	}
+
+	
+

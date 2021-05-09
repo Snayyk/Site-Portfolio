@@ -1,0 +1,136 @@
+	.ancre_hdp {
+
+		
+		margin-bottom: 4vw;
+		border: solid black 1px;
+		opacity: 0%;
+		
+	}
+
+	.titre_formulaire {
+
+		font-size: 5vh;
+		font-family: century ghotic;
+		text-align: center;
+		color: #1B1E1E;
+
+	}
+
+	.formulaire {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	
+		
+	}	
+
+	.formulaire_remplissage {
+
+		text-align: center;
+		
+		
+		
+	}
+
+	.checkbox {
+
+		display: none;
+	}
+
+	label {
+
+		font-size: 3vh;
+	}
+
+	input.mail{
+
+  	width: 30vw;
+  	height: 2vw;
+ 	font-size: 100%;
+
+	}
+
+	input.name{
+
+  	width: 30vw;
+  	height: 2vw;
+ 	font-size: 100%;
+
+	}
+
+	textarea {
+
+  	width: 30vw;
+  	height: 10vw;
+ 	font-size: 100%;
+
+	}
+
+	input.submit {
+
+		width: 10vw;
+		height: 3vw;
+		background-color: #4eb5f1;
+		color: white;
+		font-size: 2vh;
+		border: solid black 1px;
+		
+		opacity: 60%;
+	}
+
+	input.reset {
+
+		width: 10vw;
+		height: 3vw;
+		background-color: #4eb5f1;
+		color: white;
+		font-size: 2vh;
+		border: solid black 1px;
+		
+		opacity: 60%;
+
+	}
+
+	.submit:hover {
+
+		opacity: 100%;
+		transition: 1s;
+	}
+
+	.reset:hover {
+
+		opacity: 100%;
+		transition: 1s;
+	}
+
+	.section_information {
+
+		display: flex;
+		
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.section_information_titre {
+
+		font-size: 4vw;
+		text-align: center;
+		
+		color: #1B1E1E;
+		
+		}
+
+	.section_information_bas {
+
+		font-family: century ghotic; 
+		text-align: center;
+		font-size: 3vh;
+
+	}
+
+	a  {
+
+		color: #252121;
+	}
+

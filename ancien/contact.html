@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Portfolio Contact</title>
+	<link rel="stylesheet" media="(min-width: 1890px)" href="./Styles/style.css">
+	<link rel="stylesheet" media="(min-width: 1890px)" href="./Styles/style_contact.css">
+	<link rel="stylesheet" media="(max-width: 800px)" href="./Styles/mobile/mobile_style_contact.css">
+	<link rel="stylesheet" media="(max-width: 800px)" href="./Styles/mobile/mobile_style.css">
+	<link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 1889px)" href="./Styles/portable/portable_style.css"> <!-- pc portable-->
+	<link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 1889px)" href="./Styles/portable/portable_style_contact.css"> <!-- pc portable-->
+
+
+
+</head>
+
+<body>
+
+	<div class="ancre_hdp">
+	<p id="ancrehdp"></p>
+	</div>
+
+	<nav>
+	<div id="menuToggle">
+			<input class="checkbox" type="checkbox" />
+			<span></span>
+		    <span></span>
+		    <span></span>
+	 <h3 class="lien_menu" id="menu">
+	 <a class="lien_menu" href="./index.html#ancre_acceuil">Accueil</a>
+	 <a class="lien_menu" href="./cv_portfolio.html#ancre_cv">CV</a>
+	 <a class="lien_menu" href="./realisation.html#ancre_realisation">Réalisations</a>	
+	<!--<div class="dropdown">	
+	 <button class="boutonmenuprincipal">Réalisations</button>
+	 <div class="dropdown-child">
+	 <a href="http://www.votresite.com/page1.html">Réalisation 1</a>
+	 <a href="http://www.votresite.com/page2.html">Réalisation 2</a>
+	 <a href="http://www.votresite.com/page3.html">Réalisation 3</a>
+	 <a href="http://www.votresite.com/page4.html">Réalisation 4</a>
+	 <a href="http://www.votresite.com/page5.html">Réalisation 5</a>
+	 </div>
+	 </div> -->
+	 <a class="actif" href="#ancre_contact">Contact</a>	
+	</h3>
+		</div>
+	</nav>
+
+
+	<!--<div class="contact">
+<h1 style="text-align: center">Contact</h1>
+	<address>
+	<p class="lien_contact"><b>Cliquez <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCBBkFHhxFRLhSSPRBfZBJLTsTrwJCjmXrjDGXlPpXGlFjNxxDVVflzwvrwqzbLTxmlCrg' target="_blank">ici</a> pour me contacter par mail</b></p>
+	</address>
+
+	</div>-->
+
+		
+	<div class="formulaire">
+		<h1 class="titre_formulaire"><b>Formulaire de contact</b></h1>
+		<div class="formulaire_remplissage">
+			<form method="post" action="formulaire.php">
+				
+				<div>
+					<label for="name">Nom :</label><br>
+					<input class="name" id="name" type="text" name="name" required>
+				</div>
+
+				<div>
+					<label for="first_name">Prénom :</label><br>
+					<input class="name" id="first_name" type="text" name="first_name" required>
+				</div>
+
+				<div>
+					<label for="email">e-mail :</label><br>
+					<input class="mail" id="email" type="email" name="email" required>
+				</div>
+				<div>
+					<label for="msg">Message :</label><br>
+					<textarea id="msg" name="msg" ></textarea>
+				</div>
+				<input class="submit" type="submit" name="envoyer" value="Envoyer">
+				<input class="reset" type="reset" name="Réinitilaiser">
+			</form>
+			
+		</div>
+	</div>
+	
+	<div class="section_information">
+
+		<h1 class="section_information_titre">Informations</h1>
+
+		<div class="section_information_bas">
+
+			<p>Mon adresse mail: maximehauet1@gmail.com</p>
+			<p>Vous pouvez cliquer <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzDflmfbQjgjgfXCCjdknrgzdclMVSCppkCXfvRDmLQmgWlLLhbRfRfpktkGXQPKkVlnHxD" target="_blank">ici</a> pour m'envoyer un mail.</p>
+			<p>Mon téléphone: +33 6 52 66 74 18</p>
+			<p>Mon linkedin: <a href="https://www.linkedin.com/in/maxime-hauet-476091198/" target="_blank">ici</a></p>
+
+		</div>	
+
+	</div>	
+
+	<h5><a class="hdp" href="#ancrehdp">Haut de page</a></h5>
+	<h5><a class="back" href="../realisation.html#portfolio">Revenir au site principal</a></h5>
+	<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzDflmfbQjgjgfXCCjdknrgzdclMVSCppkCXfvRDmLQmgWlLLhbRfRfpktkGXQPKkVlnHxD" target="_blank"> <img class="email" src="./Img/mail.png" alt="logo_mail"></a>
+		<a href="https://www.linkedin.com/in/maxime-hauet-476091198/" target="_blank"><img class="linkedin" src="./Img/linkedin.png" alt="logo_linkedin"></a>
+
+	<footer>
+		
+
+		<div class="le_bas_de_page">
+		<p class="copyright">Conçu par Maxime Hauet<br>© Copyright 2021 - Portfolio</p>
+		
+		<img class="logo_iut" src="./Img/upec.png" alt="logo upec"/>
+		
+		</div>
+
+	</footer>
+</body>
+
+</html>
