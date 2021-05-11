@@ -66,23 +66,29 @@
 /* Page: contact.php */
 
 $VotreAdresseMail="maximehauet1@gmail.com";//mettez ici votre adresse mail
+
 if(isset($_POST['envoyer'])) { // si le bouton "Envoyer" est appuyé
     //on vérifie que le champ mail est correctement rempli
     if(empty($_POST['email'])) {
         echo "Le champ mail est vide";
+		
     } else {
         //on vérifie que l'adresse est correcte
         if(!preg_match("#^[a-z0-9_-]+((\.[a-z0-9_-]+){1,})?@[a-z0-9_-]+((\.[a-z0-9_-]+){1,})?\.[a-z]{2,}$#i",$_POST['email'])){
             echo "L'adresse mail entrée est incorrecte";
+			
         }else{
             //on vérifie que le champ sujet est correctement rempli
             if(empty($_POST['name'])) {
                 echo "Le champ sujet est vide";
+				
             }else{
                 //on vérifie que le champ message n'est pas vide
                 if(empty($_POST['msg'])) {
                     echo "Le champ message est vide";
+					
                 }else{
+					
                     //tout est correctement renseigné, on envoi le mail
                     //on renseigne les entêtes de la fonction mail de PHP
                     $Entetes = "MIME-Version: 1.0\r\n";
@@ -91,17 +97,19 @@ if(isset($_POST['envoyer'])) { // si le bouton "Envoyer" est appuyé
                     $Entetes .= "Reply-To: maximery15160@gmail.com <".$_POST['email'].">\r\n";
                     //on prépare les champs:
                     $Mail=$_POST['email']; 
-                    $Sujet='=?UTF-8?B?'.base64_encode($_POST['name']).'?=';//Cet encodage (base64_encode) est fait pour permettre aux informations binaires d'être manipulées par les systèmes qui ne gèrent pas correctement les 8 bits (=?UTF-8?B? est une norme afin de transmettre correctement les caractères de la chaine)
-                    $Message=htmlentities($_POST['msg'],ENT_QUOTES,"UTF-8");//htmlentities() converti tous les accents en entités HTML, ENT_QUOTES Convertit en + les guillemets doubles et les guillemets simples, en entités HTML
-                    //en fin, on envoi le mail
-                    if(mail($VotreAdresseMail,$Sujet,nl2br($Message),$Entetes)){//la fonction nl2br permet de conserver les sauts de ligne et la fonction base64_encode de conserver les accents dans le titre
+                    $Sujet = '=?UTF-8?B?'.base64_encode($_POST['name']).'?=';  //Cet encodage (base64_encode) est fait pour permettre aux informations binaires d'être manipulées par les systèmes qui ne gèrent pas correctement les 8 bits (=?UTF-8?B? est une norme afin de transmettre correctement les caractères de la chaine)
+
+					$Sujet = "Portfolio: ".$Sujet;
+					$Message=htmlentities($_POST['msg'],ENT_QUOTES,"UTF-8");//htmlentities() converti tous les accents en entités HTML, ENT_QUOTES Convertit en + les guillemets doubles et les guillemets simples, en entités HTML
+                   
+					$Message="<html><body>".$Message."</body></html>";
+					//en fin, on envoi le mail
+                    $test = mail($VotreAdresseMail,$Sujet,nl2br($Message),$Entetes);//la fonction nl2br permet de conserver les sauts de ligne et la fonction base64_encode de conserver les accents dans le titre
                         
-						$alerte = "Le mail a été envoyé avec succès!";
-                        
-                    } else {
-                        $alerte = "Une erreur est survenue, le mail n'a pas été envoyé";
 						
-                    }
+						
+                        
+                    
                 }
             }
         }
@@ -131,9 +139,26 @@ if(isset($_POST['envoyer'])) { // si le bouton "Envoyer" est appuyé
 				</div>
 				<div class="row">
 					<div class="col-3 col-md-4 col-xxl-4"></div>
-					<div class="col-3 col-md-2 col-xxl-2 px-3 px-md-5 px-xxl-3"><input class="btn btn-primary" type="submit" name="envoyer" value="Envoyer" onClick="<?php echo "alert('$alerte')" ?>"></div>
+					
+					<div class="col-3 col-md-2 col-xxl-2 px-3 px-md-5 px-xxl-3"><input class="btn btn-primary" type="submit" name="envoyer" value="Envoyer" onClick="<?php 
+					if(isset($test) && $test == 1) {
+						echo "alert('Le mail a été envoyé avec succès!')";
+						
+						
+					}
+					 
+					?>"></div>
 					<div class="col-3 col-xxl-2 "><input class="btn btn-danger" type="reset" name="Réinitilaiser"></div>
+					<div class="col-12 text-center"><?php 
+					if(isset($test) && $test == 1) {
+						echo "<br><h5>Le mail a été envoyé avec succès!</h5>";
+						
+						
+					}
+					 
+					?></div>
 				</div>
+
 				
 			</form>
 			

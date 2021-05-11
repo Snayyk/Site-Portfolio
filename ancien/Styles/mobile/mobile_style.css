@@ -268,6 +268,28 @@
 	 	 padding-bottom: 0.2vh;
 	 	 opacity: 40%;
 	}
+	.back-cv {
+		 position: fixed;
+	 	 right: 0;
+	 	 top: 60vh;
+	 	 width: 18vw;
+	 	 margin-top: -6vh;
+	 	 font-size: 3vh;
+	 	 text-decoration: none;
+	 	 font-family: century gothic;
+	 	 border: solid black;
+	 	 border-radius: 2vw;
+	 	 padding-left: 1vw;
+	 	 padding-bottom: 0.2vw;
+	 	 opacity: 40%;
+		
+	}
+
+	.back-cv:hover {
+		opacity: 100%;
+		color: black;
+		transition: 1s;
+	}
 
 	.back:hover {
 		opacity: 100%;
