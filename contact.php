@@ -14,6 +14,7 @@
 		<!-- bootstrap javascript-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 		<link rel="icon" type="image/png" href="./Img/star.svg">
+		<link rel="stylesheet"  href="./Style/global.css">
 		
 	</head>
 
@@ -180,6 +181,8 @@ if(isset($_POST['envoyer'])) { // si le bouton "Envoyer" est appuyé
 					
 					<div class=" col-sm-1 col-md-3 col-xl-4 col-xxl-4"></div>
 					<div class="col-12 col-sm-11 col-md-8 col-xl-8 col-xxl-7"><h6>Mon numéro téléphone: +33 6 52 66 74 18</h6></div>
+					<div class=" col-sm-1 col-md-3 col-xl-4 col-xxl-4"></div>
+					<div class="col-12 col-sm-11 col-md-8 col-xl-8 col-xxl-7" id=visible><h6>Mon Linkedin: <a style="text-decoration: none;" href="https://www.linkedin.com/in/maxime-hauet-476091198/">ici</a></h6></div>
 			</div>
 			
 		</div>
@@ -189,9 +192,9 @@ if(isset($_POST['envoyer'])) { // si le bouton "Envoyer" est appuyé
 
 	</div>	
 
-		<a class="" href="./contact.php"><img src="./Img/arrow-up-circle.svg" style="width: 50px; opacity: 75%; top: 75%;" class="position-fixed end-0 bottom-50 " alt="haut de page"></a>
-        <a class="" href="https://www.linkedin.com/in/maxime-hauet-476091198/" target="_blank"><img src="./Img/linkedin.svg" style="width: 50px; opacity: 75%;" class="position-fixed end-0 bottom-50" alt="linkedin"></a>
-        <a class="" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzDflmfbQjgjgfXCCjdknrgzdclMVSCppkCXfvRDmLQmgWlLLhbRfRfpktkGXQPKkVlnHxD" target="_blank"><img src="./Img/envelope-fill.svg" style="width: 50px; opacity: 75%;" class="position-fixed end-0 top-50" alt="mail"></a> 
+		<a class="icone" id="icone" href="./contact.php"><img src="./Img/arrow-up-circle.svg" style="width: 50px; opacity: 75%; top: 75%;" class="position-fixed end-0 bottom-50 " alt="haut de page"></a>
+        <a class="icone" id="icone" href="https://www.linkedin.com/in/maxime-hauet-476091198/" target="_blank"><img src="./Img/linkedin.svg" style="width: 50px; opacity: 75%;" class="position-fixed end-0 bottom-50" alt="linkedin"></a>
+        <a class="icone" id="icone" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzDflmfbQjgjgfXCCjdknrgzdclMVSCppkCXfvRDmLQmgWlLLhbRfRfpktkGXQPKkVlnHxD" target="_blank"><img src="./Img/envelope-fill.svg" style="width: 50px; opacity: 75%;" class="position-fixed end-0 top-50" alt="mail"></a> 
 
 
 		<footer style="background-color: #C82D2D;">
